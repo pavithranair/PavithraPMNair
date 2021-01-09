@@ -1,4 +1,4 @@
-def near_square(num):
+def nearest_square(num):
     if num < 0:
         return 0
     else:
@@ -6,4 +6,4 @@ def near_square(num):
             print(i)
             if i*i <= num:
                 return(i*i)
-near_square(5)
+
